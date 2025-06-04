@@ -12,18 +12,18 @@
 <dependencies>
 <!--  JUnit for testing  -->
 <dependency>
+  <groupId>junit</groupId>
+<artifactId>junit</artifactId>
+<version>4.12</version>
+<scope>test</scope>
+</dependency>
+</dependencies>
   <distributionManagement>
         <repository>
             <id>nexus-releases</id> <!-- Match this ID with the settings.xml -->
             <url>http://51.20.119.118:8081/repository/dockerjenkinsintegration/</url>
         </repository>
 </distributionManagement>
-<groupId>junit</groupId>
-<artifactId>junit</artifactId>
-<version>4.12</version>
-<scope>test</scope>
-</dependency>
-</dependencies>
 <build>
 <plugins>
 <!--  Plugin for creating executable jar  -->
